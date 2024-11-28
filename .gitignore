@@ -1,0 +1,8 @@
+settings.py
+*.log
+__pycache__/
+.idea/
+main.py
+tg bot.py
+TgPracticBot3.py
+requiremets.txt
