@@ -155,6 +155,4 @@ async def back(callback_query: types.CallbackQuery):
     await bot.delete_message(chat_id=callback_query.message.chat.id, message_id=callback_query.message.message_id)
 
 
-
-if __name__ == '__main__':
-    executor.start_polling(dp)
+executor.start_polling(dp)
