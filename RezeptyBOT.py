@@ -20,7 +20,7 @@ async def call(message: types.Message):
 
 def create_markup(show_back_button=False):
     markup = types.InlineKeyboardMarkup()
-    markup.add(types.InlineKeyboardButton('Домашние сырные палочки', callback_data='get_text_1'))
+    markup.add(types.InlineKeyboardButton('Дoмашние сырные палочки', callback_data='get_text_1'))
     markup.add(types.InlineKeyboardButton('Пицца на сковороде', callback_data='get_text_2'))
     markup.add(types.InlineKeyboardButton('Хоткейки', callback_data='get_text_3'))
     markup.add(types.InlineKeyboardButton('Ленивый хачапури на сковороде', callback_data='get_text_4'))
